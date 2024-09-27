@@ -1,0 +1,39 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/bootstrap';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofadi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+SC:wght@100..900&family=Sofadi+One&display=swap'); // 字型(//Kalam)
+
+
+@import './navbar.scss';
+@import './banner.scss';
+@import './service.scss';
+@import './work.scss';
+@import './Group.scss';
+@import './titleImg.scss';  
+@import './adoption.scss';  // 領養專區
+@import './Drawing.scss';   // 毛孩似顏繪
+@import './form.scss';      // 表單
+@import './home.scss';      // 首頁
+@import './footer.scss';  
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100vh;
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #3A3A3A;
+}
+
+a {
+  text-decoration: none !important;
+}

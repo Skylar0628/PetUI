@@ -1,0 +1,81 @@
+.fixed-bottom-right{
+    position: fixed;
+    bottom: 0px; 
+    right: 20px; 
+    z-index: 1000; 
+}
+
+.fixed-bottom-right:hover{
+   content: url('../accest/btn2.png');
+}
+
+.bottom_btn{
+    border-radius: 50px;
+    background-color: transparent;
+    border: 1px solid #3A3A3A;
+    width: 220px;
+    padding: 0.6rem 1.6rem;
+}
+
+.card-a{
+   font-family: "Kalam", cursive;
+   font-weight: 800;
+   font-style: normal;
+   color: #3A3A3A; 
+   font-size: 18px;
+}
+
+.card-img-01, .card-img-01-hover,  
+.card-img-02, .card-img-02-hover,
+.card-img-03, .card-img-03-hover
+{
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+}
+ 
+  
+.card-img-01-hover,
+.card-img-02-hover,
+.card-img-03-hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0; /* 初始隱藏 hover 狀態的圖片 */
+}
+  
+  
+.card-01:hover .card-img-01,
+.card-02:hover .card-img-02,
+.card-03:hover .card-img-03
+ {
+   opacity: 0; /* 原始圖片隱藏 */
+ }
+ 
+  
+.card-01:hover .card-img-01-hover,
+.card-02:hover .card-img-02-hover,
+.card-03:hover .card-img-03-hover
+{
+  opacity: 1; /* hover 狀態圖片顯示 */
+}
+   
+  
+.card-a-01,
+.card-a-02,
+.card-a-03 {
+  transition: color 0.3s ease;
+}
+
+  
+.card-01:hover .card-a-01,
+.card-02:hover .card-a-02,
+.card-03:hover .card-a-03 
+{
+    color: #F9C745; /* hover 時改變文字顏色 */
+}
+
+
+
+
+

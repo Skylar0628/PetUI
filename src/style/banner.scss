@@ -1,0 +1,15 @@
+.banner{
+    height: 700px;
+    background-image: url('../accest/home_mobile.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+// 電腦裝置
+@media screen and (min-width: 768px) {
+    .banner {
+        background-image: url('../accest/home.png');
+        height: 1000px;
+    }
+}

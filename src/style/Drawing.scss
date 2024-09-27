@@ -1,0 +1,16 @@
+
+.Drawing_banner{
+    background-image: url('../accest/banner_service-sm.png');
+    height: 260px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (min-width: 768px){
+   .Drawing_banner{
+    background-image: url('../accest/banner.png');
+     height: 400px;
+   }
+}
+

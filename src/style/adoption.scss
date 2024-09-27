@@ -1,0 +1,21 @@
+.card_img{
+   border-radius: 12px;
+   height: 213px;
+   background-size: cover;
+}
+
+.card_btn{
+    border-radius: 24px;
+    background-color: #F9C745;
+    color: #3A3A3A;
+    border: none;
+    padding: 12px 0;
+    font-weight: 900;
+}
+
+@media screen and (min-width: 768px) {
+    .card_img{
+        height: 539px;
+        background-size: cover;
+     }  
+}

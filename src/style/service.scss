@@ -1,0 +1,48 @@
+.server-center-txt{
+  font: normal normal bold 20px/32px Kalam;
+  color: #F9C745;
+  text-align: center;
+}
+.server-title{
+  font: normal normal bold 20px/32px Kalam;
+  color: #F9C745;
+  text-align: start;
+  padding-top: 10px ;
+}
+.server-title2{
+  text-align: start;
+  font: normal normal bold 20px/27px Noto Sans;
+  color: #000000;
+}
+.server-txt{
+  text-align: start;
+}
+.Server_banner{
+  background-size: cover;
+  background-position: center;
+}
+
+.server_img{
+  width: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    .server_img{
+      width: 100%;
+    }
+    .Server_banner{
+      display: none;
+    }
+    .banner-container {
+      background-image: url('../accest/banner@2x.png'); 
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+    }
+    .server-title,
+    .server-title2,
+    .server-txt
+    {
+      text-align: center;
+    }
+}

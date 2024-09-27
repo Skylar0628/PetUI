@@ -1,0 +1,36 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+SC:wght@100..900&family=Sofadi+One&display=swap');
+
+.navbar{
+    background-color: #ffff;
+}
+
+.nav-item {
+    margin-right: 1.6rem;
+}
+
+.nav-link {
+    font-family: "Noto Sans SC", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.nav-link:hover{
+    color: #F9C745 !important;
+}
+
+.btn{
+    background-color: #F9C745 !important;
+    margin-left: 2rem;
+    border-radius: 23px;
+    opacity: 1;
+}
+
+.nav-btn{
+    background-color: #F9C745;
+    border: none;
+    padding: 3px 28px;
+    border-radius: 50px;
+}
+.nav-btn:hover{
+    color: #3A3A3A !important;
+}
